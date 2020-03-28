@@ -46,7 +46,7 @@ async function getCropping(filePath) {
         apiSecret = '5504609623e6a0ae65cc4777e3098a8c',
         formData = {
             image: fs.createReadStream(filePath),
-            resolution: '800x600'
+            resolution: '4x3'
         },
         respo,
         dx = new Promise(function(res, rej){
